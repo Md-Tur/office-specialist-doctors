@@ -3,6 +3,7 @@ import Navbar from "./shared/Navbar";
 import Home from "./pages/Home/Home";
 import Payment from "./pages/Footer/Payment";
 import Contact from "./pages/Footer/Contact";
+import Members from "./pages/Footer/Members/Members";
 import About from "./pages/Footer/About";
 import Privacy from "./pages/Footer/Privacy";
 import Disclaimer from "./pages/Footer/Disclaimer";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/members" element={<Members />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
