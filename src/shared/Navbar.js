@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className='container mx-auto px-72 pt-7'>
             <div className='flex justify-center border p-4 text-3xl font-bold text-[#2a7fba] hover:underline hover:text-green-500'>
-                <button>DOCTOR BANGLADESH</button>
+                <button><Link to="/home">DOCTOR BANGLADESH</Link></button>
             </div>
             <p className='flex justify-center border py-1 px-[5px] mt-3 text-[#999] text-lg hover:underline hover:cursor-pointer'> <Link target='-blank' to="https://cse.google.com/cse?cx=52ed85adb20fc20ba#gsc.tab=0">Search Doctor</Link></p>
 
