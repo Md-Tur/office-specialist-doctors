@@ -9,6 +9,7 @@ import nusrat from '../../images/Dr.-Ummul-Nusrat-Jahan.jpg';
 import farzana from '../../images/Dr.-Farzana-Ahmed.jpg';
 import ayesha from '../../images/Dr.-Ayesha-Hasina.jpg';
 import ariful from '../../images/Dr.-Md.-Ariful-Islam.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -19,7 +20,8 @@ const Home = () => {
             name: 'Dr. Mahboob Mustafa Zaman',
             degree: 'MBBS, FCPS (Medicine), MRCP (UK)',
             specialist: 'Internal Medicine (All Diseases of Adults) Specialist',
-            chember: 'BRB Hospital, Dhaka'
+            chember: 'BRB Hospital, Dhaka',
+            link: '/mahboob'
         },
         {
             id: 2,
@@ -112,7 +114,7 @@ const Home = () => {
                                 <p className='text-lg font-bold text-red-600'>{doctor.specialist}</p>
                                 <p className='my-3 text-lg'>{doctor.chember}</p>
                                 <div>
-                                    <button className='px-5 py-2 bg-[#2a7fba] rounded-md text-white text-xl font-normal hover:underline hover:bg-green-500'>See Details</button>
+                                    <button className='px-5 py-2 bg-[#2a7fba] rounded-md text-white text-xl font-normal hover:underline hover:bg-green-500'><Link to={doctor.link}>See Details</Link></button>
                                 </div>
                             </div>
                         </div>

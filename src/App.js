@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./shared/Navbar";
 import Home from "./pages/Home/Home";
+import SingleDoctor from "./pages/Home/SingleDoctor/SingleDoctor";
+import HotLine from "./pages/Home/SingleDoctor/HotLine";
 import Payment from "./pages/Footer/Payment";
 import Contact from "./pages/Footer/Contact";
 import Members from "./pages/Footer/Members/Members";
@@ -16,6 +18,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        {/* single doctor details */}
+        <Route path="/mahboob" element={<SingleDoctor />} />
+        <Route path="/hotline" element={<HotLine />} />
+        {/* footer */}
         <Route path="/payment" element={<Payment />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/members" element={<Members />} />
