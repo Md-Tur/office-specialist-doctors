@@ -22,7 +22,7 @@ function App() {
         {/* divisional specialist doctors */}
         <Route path="/barisalD" element={<Barisal />} />
         {/* single doctor details */}
-        <Route path="/mahboob" element={<SingleDoctor />} />
+        <Route path="/doctor-details/:id" element={<SingleDoctor />} />
         <Route path="/hotline" element={<HotLine />} />
         {/* footer */}
         <Route path="/payment" element={<Payment />} />

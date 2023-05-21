@@ -1,9 +1,50 @@
 import React from 'react';
 import rating from '../../../images/members/Star-Rating.png';
 import mahboob from '../../../images/Dr.-Mahboob-Mustafa-Zaman.jpg';
-import { Link } from 'react-router-dom';
+import imran from '../../../images/Dr.-Md.-Imran-Hossain.jpg';
+import kamrunnessa from '../../../images/Prof.-Dr.-Kamrunnessa.jpg';
+import { Link, useParams } from 'react-router-dom';
 
 const SingleDoctor = () => {
+
+    const { id } = useParams();
+
+    const doctors = [
+        {
+            id: 1,
+            img: mahboob,
+            name: 'Dr. Mahboob Mustafa Zaman',
+            degree: 'MBBS, FCPS (Medicine), MRCP (UK)',
+            specialist: 'Internal Medicine (All Diseases of Adults) Specialist',
+            chember: 'BRB Hospital, Dhaka',
+            rating: rating,
+            points: '(3)'
+        },
+        {
+            id: 2,
+            img: imran,
+            name: 'Dr. Md. Imran Hossain',
+            degree: 'BDS (DU), MSS (Clinical) DU, MPH (USA), PGT (Orthodontic), PGT (OMS) BSMMU Research Fellow & Surgeon (STRC Project, Smile Train, USA), Advanced Implantology (Thailand), Invisalign (Thailand & India), Advance Training in Fixed Orthodontic Braces, Implantology & Laser Dentistry (India)',
+            specialist: 'Dental Implant, Invisalign, Dental Braces, Smile Design, Oral Surgery & Tooth Whitening Specialist',
+            chember: 'Dental View Orthodontics & Implant Center',
+            rating: rating,
+            points: '(7)'
+        },
+        {
+            id: 3,
+            img: kamrunnessa,
+            name: 'Prof. Dr. Kamrunnessa',
+            degree: 'MBBS, MCPS, FCPS (OBGYN), MPH (Epidemiology), FMAS (India), FART (India)',
+            specialist: 'Gynecology, Infertility Specialist & Laparoscopic Surgeon',
+            chember: 'BRB Hospital, Dhaka',
+            rating: rating,
+            points: '(11)'
+        }
+    ]
+
+    const doctorDetails = doctors.filter(doctor => doctor.id == id);
+    console.log(doctorDetails)
+
     return (
         <div className='container mx-auto px-72'>
 
@@ -14,16 +55,16 @@ const SingleDoctor = () => {
             <div className='mt-3 border p-4 flex justify-center mb-3'>
                 <div className='flex flex-col justify-center'>
                     <div className='flex justify-center'>
-                        <img className='w-[150px] border border-[#2a7fba] p-[2px]' src={mahboob} alt="doctor" />
+                        <img className='w-[150px] border border-[#2a7fba] p-[2px]' src={doctorDetails[0].img} alt="doctor" />
                     </div>
                     <div className='flex flex-col text-center justify-center my-3'>
-                        <p className='text-2xl font-bold text-[#2a7fba]'>Dr. Mahboob Mustafa Zaman</p>
-                        <p className='my-3 text-lg px-3'>MBBS, FCPS (Medicine), MRCP (UK)</p>
-                        <p className='text-lg font-bold text-red-600'>Internal Medicine (All Diseases of Adults) Specialist</p>
-                        <p className='my-3 text-lg'>BRB Hospital, Dhaka</p>
+                        <p className='text-2xl font-bold text-[#2a7fba]'>{doctorDetails[0].name}</p>
+                        <p className='my-3 text-lg px-3'>{doctorDetails[0].degree}</p>
+                        <p className='text-lg font-bold text-red-600'>{doctorDetails[0].specialist}</p>
+                        <p className='my-3 text-lg'>{doctorDetails[0].chember}</p>
                         <div className='flex gap-2 justify-center items-center'>
-                            <img className='h-7' src={rating} alt="rating" />
-                            <p>(3)</p>
+                            <img className='h-7' src={doctorDetails[0].rating} alt="rating" />
+                            <p>{doctorDetails[0].points}</p>
                         </div>
                     </div>
                 </div>
