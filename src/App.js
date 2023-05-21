@@ -10,6 +10,7 @@ import About from "./pages/Footer/About";
 import Privacy from "./pages/Footer/Privacy";
 import Disclaimer from "./pages/Footer/Disclaimer";
 import Footer from "./shared/Footer";
+import Barisal from "./pages/SpecialistDoctor/Doctors/Barisal/Barisal";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        {/* divisional specialist doctors */}
+        <Route path="/barisalD" element={<Barisal />} />
         {/* single doctor details */}
         <Route path="/mahboob" element={<SingleDoctor />} />
         <Route path="/hotline" element={<HotLine />} />
