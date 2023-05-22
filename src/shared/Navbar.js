@@ -16,71 +16,33 @@ const Navbar = () => {
                     <ul className="grid grid-cols-2 w-full items-center">
 
                         <li className="relative group py-2 text-center cursor-pointer">
-                            <Link
-                                className="text-lg font-medium group hover:underline"
-                                to="#">Doctors
+                            <Link className="text-lg font-medium group hover:underline" to="#">Doctors
                             </Link>
                             <ul className="absolute top-[44px] -left-0 bg-[#2a7fba] border border-gray-200 shadow-lg w-full flex flex-col -translate-y-3 text-center invisible group-hover:visible opacity-0 group-hover:opacity-100 group-hover:translate-y-0 z-[1] border-t border-t-white">
                                 <li className='w-full py-2 hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/dhakaD">Dhaka</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/dhaka-d">Dhaka</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/chittagongD">Chittagong</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/chittagong-d">Chittagong</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/sylhetD">Sylhet</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/sylhet-d">Sylhet</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/comillaD">Comilla</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/comilla-d">Comilla</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/narayanganjD">Narayanganj</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/narayanganj-d">Narayanganj</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/rajshahiD">Rajshahi</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/rajshahi-d">Rajshahi</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/rangpurD">Rangpur</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/rangpur-d">Rangpur</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/khulnaD">Khulna</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/khulna-d">Khulna</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/barisalD">Barishal</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/barisal-d">Barishal</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/mymensinghD">Mymensingh</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/mymensingh-d">Mymensingh</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/pabnaD">Pabna</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/pabna-d">Pabna</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/bograD">Bogra</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/bogra-d">Bogra</Link></li>
                             </ul>
                         </li>
 
@@ -91,65 +53,29 @@ const Navbar = () => {
                             </Link>
                             <ul className="absolute top-[44px] -left-0 bg-[#2a7fba] border border-gray-200 shadow-lg w-full flex flex-col -translate-y-3 text-center invisible group-hover:visible opacity-0 group-hover:opacity-100 group-hover:translate-y-0 z-[1] border-t border-t-white">
                                 <li className='w-full py-2 hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/dhakaH">Dhaka</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/dhaka-h">Dhaka</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/chittagongH">Chittagong</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/chittagong-h">Chittagong</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/sylhetH">Sylhet</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/sylhet-h">Sylhet</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/comillaH">Comilla</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/comilla-h">Comilla</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/narayanganjH">Narayanganj</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/narayanganj-h">Narayanganj</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/rajshahiH">Rajshahi</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/rajshahi-h">Rajshahi</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/rangpurH">Rangpur</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/rangpur-h">Rangpur</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/khulnaH">Khulna</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/khulna-h">Khulna</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/barishalH">Barishal</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/barishal-h">Barishal</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/mymensinghH">Mymensingh</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/mymensingh-h">Mymensingh</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/pabnaH">Pabna</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/pabna-h">Pabna</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link
-                                        className="text-lg font-medium pr-0"
-                                        to="/bograH">Bogra</Link>
-                                </li>
+                                    <Link className="text-lg font-medium pr-0" to="/bogra-h">Bogra</Link></li>
                             </ul>
                         </li>
                     </ul>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import mahboob from '../../images/Dr.-Mahboob-Mustafa-Zaman.jpg';
 import imran from '../../images/Dr.-Md.-Imran-Hossain.jpg';
 import kamrunnessa from '../../images/Prof.-Dr.-Kamrunnessa.jpg';
@@ -8,8 +9,9 @@ import harun from '../../images/Dr.-Mohammad-Harun-Or-Rashid.jpg';
 import nusrat from '../../images/Dr.-Ummul-Nusrat-Jahan.jpg';
 import farzana from '../../images/Dr.-Farzana-Ahmed.jpg';
 import ayesha from '../../images/Dr.-Ayesha-Hasina.jpg';
-import ariful from '../../images/Dr.-Md.-Ariful-Islam.jpg';
-import { Link } from 'react-router-dom';
+import ariful from '../../images/icon.png';
+import aditi from '../../images/Dr-.-Aditi-Paul-Chowdhury.jpg';
+import tanbir from '../../images/Dr.-Tanbir-Ahmad.jpg';
 
 const Home = () => {
 
@@ -90,9 +92,25 @@ const Home = () => {
             id: 10,
             img: ariful,
             name: 'Dr. Md. Ariful Islam',
-            degree: 'MBBS, FCPS (Medicine), MD (Rheumatology)',
-            specialist: 'Rheumatology (Arthritis, Pain, Musculoskeletal Ultrasound) Specialist',
-            chember: 'Bangabandhu Sheikh Mujib Medical University Hospital'
+            degree: 'MBBS, D-CARD (Cardiology)',
+            specialist: 'Cardiology Specialist',
+            chember: 'Rajshahi Medical College & Hospital'
+        },
+        {
+            id: 11,
+            img: aditi,
+            name: 'Dr . Aditi Paul Chowdhury',
+            degree: 'MBBS, MD (ONCOLOGY)',
+            specialist: 'Cancer Specialist',
+            chember: 'Ahsania Mission Cancer & General Hospital'
+        },
+        {
+            id: 12,
+            img: tanbir,
+            name: 'Dr. Tanbir Ahmad',
+            degree: 'BHMS (Homeopathy, Dhaka University) MSS in CSW (ISWR, Dhaka University) PGT (Psychotherapy, BSMMU), MPhil (ISWR, Dhaka University)',
+            specialist: 'Sexual Diseases, Autism, Psychological Disease, Asthma & Any Kind of Chronic Disease Specialist',
+            chember: 'Bangladesh Homeopathy Health Center, Uttara, Dhaka'
         }
     ]
 
@@ -105,7 +123,7 @@ const Home = () => {
                     <div key={doctor.id} className='border p-4 flex justify-center mb-3'>
                         <div className='flex flex-col justify-center'>
                             <div className='flex justify-center'>
-                                <img className='w-[150px] border border-[#2a7fba] p-[2px]' src={doctor.img} alt="doctor" />
+                                <img className='w-[150px] border border-[#2a7fba] p-[2px]' src={doctor.img} alt={doctor.name} />
                             </div>
                             <div className='flex flex-col text-center justify-center my-3'>
                                 <p className='text-2xl font-bold text-[#2a7fba]'>{doctor.name}</p>

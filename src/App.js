@@ -1,6 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./shared/Navbar";
 import Home from "./pages/Home/Home";
+import Dhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/Dhaka";
+import Chittagong from "./pages/SpecialistDoctor/Doctors/Chittagong/Chittagong";
+import Sylhet from "./pages/SpecialistDoctor/Doctors/Sylhet/Sylhet";
+import Barisal from "./pages/SpecialistDoctor/Doctors/Barisal/Barisal";
 import SingleDoctor from "./pages/Home/SingleDoctor/SingleDoctor";
 import HotLine from "./pages/Home/SingleDoctor/HotLine";
 import Payment from "./pages/Footer/Payment";
@@ -10,7 +14,6 @@ import About from "./pages/Footer/About";
 import Privacy from "./pages/Footer/Privacy";
 import Disclaimer from "./pages/Footer/Disclaimer";
 import Footer from "./shared/Footer";
-import Barisal from "./pages/SpecialistDoctor/Doctors/Barisal/Barisal";
 
 function App() {
   return (
@@ -20,7 +23,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         {/* divisional specialist doctors */}
-        <Route path="/barisalD" element={<Barisal />} />
+        <Route path="/dhaka-d" element={<Dhaka />} />
+        <Route path="/chittagong-d" element={<Chittagong />} />
+        <Route path="/sylhet-d" element={<Sylhet />} />
+        <Route path="/barisal-d" element={<Barisal />} />
         {/* single doctor details */}
         <Route path="/doctor-details/:id" element={<SingleDoctor />} />
         <Route path="/hotline" element={<HotLine />} />
