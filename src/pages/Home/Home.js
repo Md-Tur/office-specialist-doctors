@@ -116,7 +116,7 @@ const Home = () => {
 
     return (
         <div className='container mx-auto px-72'>
-            <p className='flex justify-center border py-2 px-[5px] my-3 text-black p-4 text-3xl font-medium'>Specialist Doctors List in Bangladesh</p>
+            <p className='flex justify-center border py-2 px-[5px] my-3 text-black p-4 text-3xl font-bold'>Specialist Doctors List in Bangladesh</p>
 
             {
                 doctors.map(doctor =>

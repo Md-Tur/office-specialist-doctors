@@ -166,11 +166,6 @@ const Sylhet = () => {
         },
         {
             id: 33,
-            speciality: 'Urology Specialist in Chittagong',
-            link: '/urology-s'
-        },
-        {
-            id: 34,
             speciality: 'Vascular Surgery Specialist in Sylhet',
             link: '/vascular-s'
         }
