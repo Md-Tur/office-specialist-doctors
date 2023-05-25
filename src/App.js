@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./shared/Navbar";
 import Home from "./pages/Home/Home";
+//  divisional specialist doctors
 import Dhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/Dhaka";
 import Chittagong from "./pages/SpecialistDoctor/Doctors/Chittagong/Chittagong";
 import Sylhet from "./pages/SpecialistDoctor/Doctors/Sylhet/Sylhet";
@@ -13,8 +14,18 @@ import Barisal from "./pages/SpecialistDoctor/Doctors/Barisal/Barisal";
 import Mymensingh from "./pages/SpecialistDoctor/Doctors/Mymensingh/Mymensingh";
 import Pabna from "./pages/SpecialistDoctor/Doctors/Pabna/Pabna";
 import Bogra from "./pages/SpecialistDoctor/Doctors/Bogra/Bogra";
+
+// divisional hospitals 
+import DhakaHospitals from "./pages/SpecialistDoctor/Hospitals/DhakaHospitals/DhakaHospitals";
+import ChittagongHospitals from "./pages/SpecialistDoctor/Hospitals/ChittagongHospitals/ChittagongHospitals";
+import SylhetHospitals from "./pages/SpecialistDoctor/Hospitals/SylhetHospitals/SylhetHospitals";
+import BarisalHospitals from "./pages/SpecialistDoctor/Hospitals/BarisalHospitals/BarisalHospitals";
+
+// single doctor details
 import SingleDoctor from "./pages/Home/SingleDoctor/SingleDoctor";
 import HotLine from "./pages/Home/SingleDoctor/HotLine";
+
+// footer
 import Payment from "./pages/Footer/Payment";
 import Contact from "./pages/Footer/Contact";
 import Members from "./pages/Footer/Members/Members";
@@ -44,6 +55,12 @@ function App() {
         <Route path="/mymensingh-d" element={<Mymensingh />} />
         <Route path="/pabna-d" element={<Pabna />} />
         <Route path="/bogra-d" element={<Bogra />} />
+
+        {/* divisional hospitals */}
+        <Route path="/dhaka-h" element={<DhakaHospitals />} />
+        <Route path="/chittagong-h" element={<ChittagongHospitals />} />
+        <Route path="/sylhet-h" element={<SylhetHospitals />} />
+        <Route path="/barisal-h" element={<BarisalHospitals />} />
 
         {/* single doctor details */}
         <Route path="/doctor-details/:id" element={<SingleDoctor />} />

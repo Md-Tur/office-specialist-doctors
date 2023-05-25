@@ -36,7 +36,7 @@ const Navbar = () => {
                                 <li className='w-full py-2 border-t hover:underline'>
                                     <Link className="text-lg font-medium pr-0" to="/khulna-d">Khulna</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link className="text-lg font-medium pr-0" to="/barisal-d">Barishal</Link></li>
+                                    <Link className="text-lg font-medium pr-0" to="/barisal-d">Barisal</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
                                     <Link className="text-lg font-medium pr-0" to="/mymensingh-d">Mymensingh</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
@@ -69,7 +69,7 @@ const Navbar = () => {
                                 <li className='w-full py-2 border-t hover:underline'>
                                     <Link className="text-lg font-medium pr-0" to="/khulna-h">Khulna</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
-                                    <Link className="text-lg font-medium pr-0" to="/barishal-h">Barishal</Link></li>
+                                    <Link className="text-lg font-medium pr-0" to="/barisal-h">Barisal</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
                                     <Link className="text-lg font-medium pr-0" to="/mymensingh-h">Mymensingh</Link></li>
                                 <li className='w-full py-2 border-t hover:underline'>
