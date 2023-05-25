@@ -140,47 +140,47 @@ const Home = () => {
             }
 
             {/* speciality */}
-            <div>
-                <p className='flex justify-center border py-2 text-black p-4 text-3xl font-medium'>Specialty Wise Doctors List</p>
-                <div className='border px-10 py-5'>
+            <div className='border'>
+                <p className='flex justify-center py-2 text-black p-4 text-3xl font-medium'>Specialty Wise Doctors List</p>
+                <div className='border-t px-10 py-5'>
                     <div className='flex justify-between gap-3 text-white text-center text-lg font-medium'>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Dhaka</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Chittagong</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Rajshahi</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Sylhet</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Rangpur</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Khulna</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Barisal</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Mymensingh</p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/dhaka-d'>Dhaka</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/chittagong-d'>Chittagong</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/rajshahi-d'>Rajshahi</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/sylhet-d'>Sylhet</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/rangpur-d'>Rangpur</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/khulna-d'>Khulna</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/barisal-d'>Barisal</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/mymensingh-d'>Mymensingh</Link></p>
                     </div>
                     <div className='mt-2 flex justify-center gap-4 text-white text-center text-lg font-medium'>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Pabna</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Bogra</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Comilla</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Narayanganj</p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/pabna-d'>Pabna</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/bogra-d'>Bogra</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/comilla-d'>Comilla</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/narayanganj-d'>Narayanganj</Link></p>
                     </div>
                 </div>
             </div>
 
             {/* hospitals */}
-            <div className='my-3'>
-                <p className='flex justify-center border py-2 text-black p-4 text-3xl font-medium'>Hospital Wise Doctors List</p>
-                <div className='border px-10 py-5'>
+            <div className='my-3 border'>
+                <p className='flex justify-center py-2 text-black p-4 text-3xl font-medium'>Hospital Wise Doctors List</p>
+                <div className='border-t px-10 py-5'>
                     <div className='flex justify-between gap-3 text-white text-center text-lg font-medium'>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Dhaka</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Chittagong</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Rajshahi</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Sylhet</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Rangpur</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Khulna</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Barisal</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Mymensingh</p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/dhaka-h'>Dhaka</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/chittagong-h'>Chittagong</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/rajshahi-h'>Rajshahi</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/sylhet-h'>Sylhet</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/rangpur-h'>Rangpur</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/khulna-h'>Khulna</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/barishal-h'>Barisal</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/mymensingh-h'>Mymensingh</Link></p>
                     </div>
                     <div className='mt-2 flex justify-center gap-4 text-white text-center text-lg font-medium'>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Pabna</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Bogra</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Comilla</p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500'>Narayanganj</p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/pabna-h'>Pabna</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/bogra-h'>Bogra</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/comilla-h'>Comilla</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/narayanganj-h'>Narayanganj</Link></p>
                     </div>
                 </div>
             </div>
