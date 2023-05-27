@@ -19,6 +19,11 @@ import Bogra from "./pages/SpecialistDoctor/Doctors/Bogra/Bogra";
 import DhakaHospitals from "./pages/SpecialistDoctor/Hospitals/DhakaHospitals/DhakaHospitals";
 import ChittagongHospitals from "./pages/SpecialistDoctor/Hospitals/ChittagongHospitals/ChittagongHospitals";
 import SylhetHospitals from "./pages/SpecialistDoctor/Hospitals/SylhetHospitals/SylhetHospitals";
+import ComillaHospitals from "./pages/SpecialistDoctor/Hospitals/ComillaHospitals/ComillaHospitals";
+import NarayanganjHospitals from "./pages/SpecialistDoctor/Hospitals/NarayanganjHospitals/NarayanganjHospitals";
+import RajshahiHospitals from "./pages/SpecialistDoctor/Hospitals/RajshahiHospitals/RajshahiHospitals";
+import RangpurHospitals from "./pages/SpecialistDoctor/Hospitals/RangpurHospitals/RangpurHospitals";
+import KhulnaHospitals from "./pages/SpecialistDoctor/Hospitals/KhulnaHospitals/KhulnaHospitals";
 import BarisalHospitals from "./pages/SpecialistDoctor/Hospitals/BarisalHospitals/BarisalHospitals";
 
 // single doctor details
@@ -60,6 +65,11 @@ function App() {
         <Route path="/dhaka-h" element={<DhakaHospitals />} />
         <Route path="/chittagong-h" element={<ChittagongHospitals />} />
         <Route path="/sylhet-h" element={<SylhetHospitals />} />
+        <Route path="/comilla-h" element={<ComillaHospitals />} />
+        <Route path="/narayanganj-h" element={<NarayanganjHospitals />} />
+        <Route path="/rajshahi-h" element={<RajshahiHospitals />} />
+        <Route path="/rangpur-h" element={<RangpurHospitals />} />
+        <Route path="/khulna-h" element={<KhulnaHospitals />} />
         <Route path="/barisal-h" element={<BarisalHospitals />} />
 
         {/* single doctor details */}
