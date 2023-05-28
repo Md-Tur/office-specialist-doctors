@@ -173,7 +173,7 @@ const Home = () => {
                         <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/sylhet-h'>Sylhet</Link></p>
                         <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/rangpur-h'>Rangpur</Link></p>
                         <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/khulna-h'>Khulna</Link></p>
-                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/barishal-h'>Barisal</Link></p>
+                        <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/barisal-h'>Barisal</Link></p>
                         <p className='bg-[#2a7fba] px-3 py-2 rounded-md hover:underline hover:bg-green-500 hover:cursor-pointer'><Link to='/mymensingh-h'>Mymensingh</Link></p>
                     </div>
                     <div className='mt-2 flex justify-center gap-4 text-white text-center text-lg font-medium'>
