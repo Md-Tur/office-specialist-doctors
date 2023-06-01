@@ -231,7 +231,7 @@ const Dhaka = () => {
             <p className='flex justify-center border py-2 px-[5px] my-3 text-black p-4 text-3xl font-bold'>Specialist Doctors List in Dhaka</p>
             {
                 specialists.map(specialist =>
-                    <p key={specialist.id} className='my-3 border text-lg text-center text-[#2a7fba] py-3 hover:underline hover:cursor-pointer'><Link to="/hotline">{specialist.speciality}</Link></p>
+                    <p key={specialist.id} className='my-3 border text-lg text-center text-[#2a7fba] py-3 hover:underline hover:cursor-pointer'><Link to={specialist.link}>{specialist.speciality}</Link></p>
                 )
             }
             <p className='border text-lg text-center py-3 mb-3'>Updated on January 12, 2023</p>

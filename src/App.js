@@ -15,6 +15,10 @@ import Mymensingh from "./pages/SpecialistDoctor/Doctors/Mymensingh/Mymensingh";
 import Pabna from "./pages/SpecialistDoctor/Doctors/Pabna/Pabna";
 import Bogra from "./pages/SpecialistDoctor/Doctors/Bogra/Bogra";
 
+// Anesthesiologist in Dhaka
+import AnesthesiologyDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/AnesthesiologyDhaka";
+
+
 // divisional hospitals 
 import DhakaHospitals from "./pages/SpecialistDoctor/Hospitals/DhakaHospitals/DhakaHospitals";
 import ChittagongHospitals from "./pages/SpecialistDoctor/Hospitals/ChittagongHospitals/ChittagongHospitals";
@@ -63,6 +67,9 @@ function App() {
         <Route path="/mymensingh-d" element={<Mymensingh />} />
         <Route path="/pabna-d" element={<Pabna />} />
         <Route path="/bogra-d" element={<Bogra />} />
+
+        {/* Anesthesiologist in Dhaka */}
+        <Route path="/anesthesiology-d" element={<AnesthesiologyDhaka />} />
 
         {/* divisional hospitals */}
         <Route path="/dhaka-h" element={<DhakaHospitals />} />
