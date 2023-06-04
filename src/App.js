@@ -36,6 +36,7 @@ import BograHospitals from "./pages/SpecialistDoctor/Hospitals/BograHospitals/Bo
 // divisional single doctor details
 import SingleDoctor from "./pages/Home/SingleDoctor/SingleDoctor";
 import HotLine from "./pages/Home/SingleDoctor/HotLine";
+import SingleAnesthesiologist from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/SingleAnesthesiologist/SingleAnesthesiologist";
 
 // footer
 import Payment from "./pages/Footer/Payment";
@@ -87,6 +88,7 @@ function App() {
 
         {/* single doctor details */}
         <Route path="/doctor-details/:id" element={<SingleDoctor />} />
+        <Route path="/dhaka-anesthesiologist/:id" element={<SingleAnesthesiologist />} />
         <Route path="/hotline" element={<HotLine />} />
 
         {/* footer */}

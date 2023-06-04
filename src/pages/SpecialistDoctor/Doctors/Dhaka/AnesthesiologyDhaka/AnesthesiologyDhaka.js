@@ -362,7 +362,7 @@ const AnesthesiologyDhaka = () => {
                                 <p className='text-lg font-bold text-red-600'>{doctor.specialist}</p>
                                 <p className='my-3 text-lg'>{doctor.chember}</p>
                                 <div>
-                                    <button className='px-5 py-2 bg-[#2a7fba] rounded-md text-white text-xl font-normal hover:underline hover:bg-green-500'><Link to={`/doctor-details/${doctor.id}`}>See Details</Link></button>
+                                    <button className='px-5 py-2 bg-[#2a7fba] rounded-md text-white text-xl font-normal hover:underline hover:bg-green-500'><Link to={`/dhaka-anesthesiologist/${doctor.id}`}>See Details</Link></button>
                                 </div>
                             </div>
                         </div>
