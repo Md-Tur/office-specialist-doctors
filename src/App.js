@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./shared/Navbar";
 import Home from "./pages/Home/Home";
-//  divisional specialist doctors
+//  divisional specialists doctors
 import Dhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/Dhaka";
 import Chittagong from "./pages/SpecialistDoctor/Doctors/Chittagong/Chittagong";
 import Sylhet from "./pages/SpecialistDoctor/Doctors/Sylhet/Sylhet";
@@ -15,9 +15,9 @@ import Mymensingh from "./pages/SpecialistDoctor/Doctors/Mymensingh/Mymensingh";
 import Pabna from "./pages/SpecialistDoctor/Doctors/Pabna/Pabna";
 import Bogra from "./pages/SpecialistDoctor/Doctors/Bogra/Bogra";
 
-// Anesthesiologist in Dhaka
+// Specialists in Dhaka
 import AnesthesiologyDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/AnesthesiologyDhaka";
-
+import BreastDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/BreastDhaka/BreastDhaka";
 
 // divisional hospitals 
 import DhakaHospitals from "./pages/SpecialistDoctor/Hospitals/DhakaHospitals/DhakaHospitals";
@@ -35,8 +35,9 @@ import BograHospitals from "./pages/SpecialistDoctor/Hospitals/BograHospitals/Bo
 
 // divisional single doctor details
 import SingleDoctor from "./pages/Home/SingleDoctor/SingleDoctor";
-import HotLine from "./pages/Home/SingleDoctor/HotLine";
 import SingleAnesthesiologist from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/SingleAnesthesiologist/SingleAnesthesiologist";
+import SingleBreastSpecialist from "./pages/SpecialistDoctor/Doctors/Dhaka/BreastDhaka/SingleBreastSpecialist/SingleBreastSpecialist";
+import HotLine from "./pages/Home/SingleDoctor/HotLine";
 
 // footer
 import Payment from "./pages/Footer/Payment";
@@ -69,8 +70,9 @@ function App() {
         <Route path="/pabna-d" element={<Pabna />} />
         <Route path="/bogra-d" element={<Bogra />} />
 
-        {/* Anesthesiologist in Dhaka */}
+        {/* Specialist in Dhaka */}
         <Route path="/anesthesiology-d" element={<AnesthesiologyDhaka />} />
+        <Route path="/breast-d" element={<BreastDhaka />} />
 
         {/* divisional hospitals */}
         <Route path="/dhaka-h" element={<DhakaHospitals />} />
@@ -89,6 +91,7 @@ function App() {
         {/* single doctor details */}
         <Route path="/doctor-details/:id" element={<SingleDoctor />} />
         <Route path="/dhaka-anesthesiologist/:id" element={<SingleAnesthesiologist />} />
+        <Route path="/dhaka-breast/:id" element={<SingleBreastSpecialist />} />
         <Route path="/hotline" element={<HotLine />} />
 
         {/* footer */}
