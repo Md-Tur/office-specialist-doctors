@@ -103,7 +103,13 @@ const SingleCancerSpecialist = () => {
             name: 'Prof. Dr. Md. Moarraf Hossen',
             degree: 'MBBS, DMRT (BSMMU), FCPS (Radiotherapy), Fellowship Training (India, Singapore)',
             specialist: 'Cancer Specialist & Radiation Oncologist',
-            chember: 'National Institute of Cancer Research & Hospital'
+            chember: 'National Institute of Cancer Research & Hospital',
+            rating: rating,
+            points: '',
+            address: '',
+            visiting: '',
+            appointment: '',
+            about: ''
         },
         {
             id: 2,
