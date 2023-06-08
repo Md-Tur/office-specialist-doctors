@@ -48,7 +48,7 @@ import biswajit from '../../../../../../images/Specialist/Dhaka/Cancer/Dr.-Biswa
 import taslima from '../../../../../../images/Specialist/Dhaka/Cancer/Dr.-Taslima-Nigar.jpg';
 import khorshed from '../../../../../../images/Specialist/Dhaka/Cancer/dr-male.jpg';
 import rafiqul1 from '../../../../../../images/Specialist/Dhaka/Cancer/Dr.-Muhammad-Rafiqul-Islam.jpg';
-import kamruzzaman from '../../../../../../images/Specialist/Dhaka/Cancer/';
+import kamruzzaman from '../../../../../../images/Specialist/Dhaka/Cancer/Dr.-Kamruzzaman-Rumman.jpg';
 import lubna from '../../../../../../images/Specialist/Dhaka/Cancer/Dr.-Lubna-Mariam.jpg';
 import nizamul from '../../../../../../images/Specialist/Dhaka/Cancer/Prof.-Dr.-Md.-Nizamul-Haque.jpg';
 import ashim from '../../../../../../images/Specialist/Dhaka/Cancer/Dr.-Ashim-Kumar-Sengupta.jpg';
