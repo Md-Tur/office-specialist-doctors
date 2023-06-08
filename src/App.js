@@ -18,6 +18,7 @@ import Bogra from "./pages/SpecialistDoctor/Doctors/Bogra/Bogra";
 // Specialists in Dhaka
 import AnesthesiologyDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/AnesthesiologyDhaka";
 import BreastDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/BreastDhaka/BreastDhaka";
+import CancerDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/CancerDhaka/CancerDhaka";
 
 // divisional hospitals 
 import DhakaHospitals from "./pages/SpecialistDoctor/Hospitals/DhakaHospitals/DhakaHospitals";
@@ -37,6 +38,7 @@ import BograHospitals from "./pages/SpecialistDoctor/Hospitals/BograHospitals/Bo
 import SingleDoctor from "./pages/Home/SingleDoctor/SingleDoctor";
 import SingleAnesthesiologist from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/SingleAnesthesiologist/SingleAnesthesiologist";
 import SingleBreastSpecialist from "./pages/SpecialistDoctor/Doctors/Dhaka/BreastDhaka/SingleBreastSpecialist/SingleBreastSpecialist";
+import SingleCancerSpecialist from "./pages/SpecialistDoctor/Doctors/Dhaka/CancerDhaka/SingleCancerSpecialist/SingleCancerSpecialist";
 import HotLine from "./pages/Home/SingleDoctor/HotLine";
 
 // footer
@@ -73,6 +75,7 @@ function App() {
         {/* Specialist in Dhaka */}
         <Route path="/anesthesiology-d" element={<AnesthesiologyDhaka />} />
         <Route path="/breast-d" element={<BreastDhaka />} />
+        <Route path="/cancer-d" element={<CancerDhaka />} />
 
         {/* divisional hospitals */}
         <Route path="/dhaka-h" element={<DhakaHospitals />} />
@@ -92,6 +95,7 @@ function App() {
         <Route path="/doctor-details/:id" element={<SingleDoctor />} />
         <Route path="/dhaka-anesthesiologist/:id" element={<SingleAnesthesiologist />} />
         <Route path="/dhaka-breast/:id" element={<SingleBreastSpecialist />} />
+        <Route path="/dhaka-cancer/:id" element={<SingleCancerSpecialist />} />
         <Route path="/hotline" element={<HotLine />} />
 
         {/* footer */}
