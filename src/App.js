@@ -19,6 +19,10 @@ import Bogra from "./pages/SpecialistDoctor/Doctors/Bogra/Bogra";
 import AnesthesiologyDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/AnesthesiologyDhaka";
 import BreastDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/BreastDhaka/BreastDhaka";
 import CancerDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/CancerDhaka/CancerDhaka";
+import CancerSurgeryDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/CancerSurgeryDhaka/CancerSurgeryDhaka";
+import CardiacSurgeryDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/CardiacSurgeryDhaka/CardiacSurgeryDhaka";
+import CardiologyDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/CardiologyDhaka/CardiologyDhaka";
+import ChestAsthmaDhaka from "./pages/SpecialistDoctor/Doctors/Dhaka/ChestAsthmaDhaka/ChestAsthmaDhaka";
 
 // divisional hospitals 
 import DhakaHospitals from "./pages/SpecialistDoctor/Hospitals/DhakaHospitals/DhakaHospitals";
@@ -34,12 +38,16 @@ import MymensinghHospitals from "./pages/SpecialistDoctor/Hospitals/MymensinghHo
 import PabnaHospitals from "./pages/SpecialistDoctor/Hospitals/PabnaHospitals/PabnaHospitals";
 import BograHospitals from "./pages/SpecialistDoctor/Hospitals/BograHospitals/BograHospitals";
 
-// divisional single doctor details
+// dhaka divisional single doctor details
 import SingleDoctor from "./pages/Home/SingleDoctor/SingleDoctor";
 import SingleAnesthesiologist from "./pages/SpecialistDoctor/Doctors/Dhaka/AnesthesiologyDhaka/SingleAnesthesiologist/SingleAnesthesiologist";
 import SingleBreastSpecialist from "./pages/SpecialistDoctor/Doctors/Dhaka/BreastDhaka/SingleBreastSpecialist/SingleBreastSpecialist";
 import SingleCancerSpecialist from "./pages/SpecialistDoctor/Doctors/Dhaka/CancerDhaka/SingleCancerSpecialist/SingleCancerSpecialist";
 import HotLine from "./pages/Home/SingleDoctor/HotLine";
+import SingleCancerSurgion from "./pages/SpecialistDoctor/Doctors/Dhaka/CancerSurgeryDhaka/SingleCancerSurgion/SingleCancerSurgion";
+import SingleCardiacSurgeon from "./pages/SpecialistDoctor/Doctors/Dhaka/CardiacSurgeryDhaka/SingleCardiacSurgeon/SingleCardiacSurgeon";
+import SingleCardiologist from "./pages/SpecialistDoctor/Doctors/Dhaka/CardiologyDhaka/SingleCardiologist/SingleCardiologist";
+import SingleChestAsthma from "./pages/SpecialistDoctor/Doctors/Dhaka/ChestAsthmaDhaka/SingleChestAsthma/SingleChestAsthma";
 
 // footer
 import Payment from "./pages/Footer/Payment";
@@ -76,6 +84,10 @@ function App() {
         <Route path="/anesthesiology-d" element={<AnesthesiologyDhaka />} />
         <Route path="/breast-d" element={<BreastDhaka />} />
         <Route path="/cancer-d" element={<CancerDhaka />} />
+        <Route path="/cancer-surgery-d" element={<CancerSurgeryDhaka />} />
+        <Route path="/cardiac-surgery-d" element={<CardiacSurgeryDhaka />} />
+        <Route path="/cardiology-d" element={<CardiologyDhaka />} />
+        <Route path="/chest-d" element={<ChestAsthmaDhaka />} />
 
         {/* divisional hospitals */}
         <Route path="/dhaka-h" element={<DhakaHospitals />} />
@@ -91,11 +103,15 @@ function App() {
         <Route path="/pabna-h" element={<PabnaHospitals />} />
         <Route path="/bogra-h" element={<BograHospitals />} />
 
-        {/* single doctor details */}
+        {/* dhaka single doctor details */}
         <Route path="/doctor-details/:id" element={<SingleDoctor />} />
         <Route path="/dhaka-anesthesiologist/:id" element={<SingleAnesthesiologist />} />
         <Route path="/dhaka-breast/:id" element={<SingleBreastSpecialist />} />
         <Route path="/dhaka-cancer/:id" element={<SingleCancerSpecialist />} />
+        <Route path="/dhaka-cancerSurgeon/:id" element={<SingleCancerSurgion />} />
+        <Route path="/dhaka-cardiacSurgeon/:id" element={<SingleCardiacSurgeon />} />
+        <Route path="/dhaka-cardiologist/:id" element={<SingleCardiologist />} />
+        <Route path="/dhaka-chestAsthma/:id" element={<SingleChestAsthma />} />
         <Route path="/hotline" element={<HotLine />} />
 
         {/* footer */}

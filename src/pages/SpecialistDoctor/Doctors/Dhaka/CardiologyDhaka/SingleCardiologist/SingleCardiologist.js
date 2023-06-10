@@ -2,9 +2,9 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 // images
 import rating from '../../../../../../images/Specialist/Star-Rating.png';
-import moarraf from '../../../../../../images/Specialist/Dhaka/Cancer/Prof.-Dr.-Md.-Moarraf-Hossen.jpg';
+import moarraf from '../../../../../../images/Specialist/Dhaka/Cardiology/Prof.-Dr.-Md.-Moarraf-Hossen.jpg';
 
-const SingleCancerSpecialist = () => {
+const SingleCardiologist = () => {
 
     const { id } = useParams();
 
@@ -32,7 +32,7 @@ const SingleCancerSpecialist = () => {
 
             <p className='my-3 border text-lg text-center text-[#2a7fba] py-3 hover:underline hover:cursor-pointer'><Link to="/">Doctors</Link></p>
             <p className='my-3 border text-lg text-center text-[#2a7fba] py-3 hover:underline hover:cursor-pointer'><Link to="/dhaka-d">Doctors in Dhaka</Link></p>
-            <p className='my-3 border text-lg text-center text-[#2a7fba] py-3 hover:underline hover:cursor-pointer'><Link to="/cancer-d">Cancer Specialist in Dhaka</Link></p>
+            <p className='my-3 border text-lg text-center text-[#2a7fba] py-3 hover:underline hover:cursor-pointer'><Link to="/cardiology-d">Cardiologist in Dhaka</Link></p>
 
             <div className='mt-3 border p-4 flex justify-center mb-3'>
                 <div className='flex flex-col justify-center'>
@@ -79,4 +79,4 @@ const SingleCancerSpecialist = () => {
     );
 };
 
-export default SingleCancerSpecialist;
+export default SingleCardiologist;
